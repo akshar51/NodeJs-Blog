@@ -11,6 +11,7 @@ app.use('/',require('./router/index'))
 
 app.listen(port,(err)=>{
     if(!err){
+        db()
         console.log("Server started..")
         console.log("http://localhost:"+port)
     }
