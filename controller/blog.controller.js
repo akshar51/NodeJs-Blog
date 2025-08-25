@@ -14,8 +14,8 @@ module.exports.loginPage = (req,res)=>{
 
 module.exports.signup = async (req,res)=>{
     try {
-        let user = await User.create(req.body)
-        console.log(user)
+        await User.create(req.body)
+        console.log("User Created")
         res.redirect('/login')
     } catch (error) {
         console.log(error)
