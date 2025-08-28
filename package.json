@@ -1,36 +1,25 @@
 {
-  "name": "nodejs-blog",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongoose": "^8.18.0",
+    "multer": "^1.4.5-lts.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/akshar51/NodeJs-Blog.git"
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/akshar51/NodeJs-Blog/issues"
-  },
-  "homepage": "https://github.com/akshar51/NodeJs-Blog#readme",
-  "dependencies": {
-    "bcrypt": "^6.0.0",
-    "body-parser": "^2.2.0",
-    "cookie-parser": "^1.4.7",
-    "dotenv": "^16.6.1",
-    "ejs": "^3.1.10",
-    "express": "^5.1.0",
-    "mongoose": "^8.17.2",
-    "multer": "^2.0.2"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.10"
-  }
+  "description": ""
 }
